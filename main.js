@@ -1,5 +1,5 @@
 console.log("code link functionality check");
-console.log(document.getElementById("lottie-controller").style.backgroundColor);
+console.log(document.getElementById("lottie-controller").backgroundColor);
 
 // var lottiePlayer = document.getElementsByTagName("lottie-player");
 // var hoverTrigger = document.getElementById("lottie-controller");

@@ -6,8 +6,7 @@ getElementById("lottie-controller").addEventListener(
 );
 
 function trialfunction() {
-  document.getElementById("lottie-controller").body.style.backgroundColor =
-    "red";
+  document.getElementById("lottie-controller").style.backgroundColor = "red";
 }
 
 // var lottiePlayer = document.getElementsByTagName("lottie-player");

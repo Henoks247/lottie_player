@@ -1,14 +1,14 @@
 console.log("code link functionality check");
 
-getElementById("lottie-controller").addEventListener(
-  "mouseover",
-  trialfunction
-);
+// getElementById("lottie-controller").addEventListener(
+//   "mouseover",
+//   trialfunction
+// );
 
 function trialfunction() {
   document.getElementById("lottie-controller").style.backgroundColor = "red";
 }
-
+trialfunction();
 // var lottiePlayer = document.getElementsByTagName("lottie-player");
 // var hoverTrigger = document.getElementById("lottie-controller");
 

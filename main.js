@@ -6,9 +6,9 @@ console.log("code link functionality check 2");
 //   trialfunction
 // );
 
-function trialfunction() {
-  document.getElementById("lottie-controller").style.backgroundColor = "red";
-}
+// function trialfunction() {
+//   document.getElementById("lottie-controller").style.backgroundColor = "red";
+// }
 
 // var lottiePlayer = document.getElementsByTagName("lottie-player");
 // var hoverTrigger = document.getElementById("lottie-controller");

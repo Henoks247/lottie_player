@@ -4,7 +4,7 @@ console.log("code link functionality check");
 //   "mouseover",
 //   trialfunction
 // );
-
+document.getElementById("lottie-controller").style.backgroundColor = "red";
 function trialfunction() {
   document.getElementById("lottie-controller").style.backgroundColor = "red";
 }

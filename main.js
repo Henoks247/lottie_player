@@ -1,5 +1,6 @@
 console.log("code link functionality check");
 console.log(getElementById("orange").style.backgroundColor);
+console.log("code link functionality check 2");
 // getElementById("lottie-controller").addEventListener(
 //   "mouseover",
 //   trialfunction

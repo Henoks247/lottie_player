@@ -1,5 +1,6 @@
 console.log("code link functionality check");
 console.log($(".h2").text());
+
 console.log("code link functionality check 2");
 // getElementById("lottie-controller").addEventListener(
 //   "mouseover",

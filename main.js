@@ -6,6 +6,8 @@ console.log("code link functionality check");
 let lottiePlayer = document.getElementById("lottie_player");
 let hoverTrigger = document.getElementById("lottie_controller");
 
+console.log(hoverTrigger);
+
 function pauser() {
   document.getElementById("lottie_player").pause();
   console.log("paused");

@@ -2,9 +2,10 @@ console.log("code link functionality check");
 console.log("code link functionality check 2");
 let animation = document.getElementById("exploding-bird");
 
-animation.addEventListener("ready", () => {
-  animation.onpause();
-});
+function pauser() {
+  getElementById("exploding-bird").pause();
+  console.log("paused");
+}
 // getElementById("lottie-controller").addEventListener(
 //   "mouseover",
 //   trialfunction

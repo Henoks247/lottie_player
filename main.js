@@ -6,22 +6,13 @@ console.log("code link functionality check");
 let lottiePlayer = document.getElementById("lottie_player");
 let hoverTrigger = document.getElementById("lottie_controller");
 
-console.log(hoverTrigger);
-
-function pauser() {
-  document.getElementById("lottie_player").pause();
-  console.log("paused");
-}
-
-function player() {
-  lottiePlayer.play();
-  console.log("played");
-}
-
 hoverTrigger.addEventListener("mouseover", () => {
   lottiePlayer.pause();
 });
-console.log("paused");
+
+hoverTrigger.addEventListener("mouseout", () => {
+  lottiePlayer.play();
+});
 // hoverTrigger.addEventListener("mouseover", function (event) {
 //   lottiePlayer.pause();
 // });

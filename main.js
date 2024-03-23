@@ -3,8 +3,8 @@ console.log("code link functionality check");
 // let animation = document.getElementById("lottie_player");
 // console.log(animation);
 
-var lottiePlayer = document.getElementById("lottie_player");
-var hoverTrigger = document.getElementById("lottie_controller");
+let lottiePlayer = document.getElementById("lottie_player");
+let hoverTrigger = document.getElementById("lottie_controller");
 
 function pauser() {
   document.getElementById("lottie_player").pause();
@@ -15,9 +15,10 @@ function player() {
   lottiePlayer.play();
   console.log("played");
 }
-console.log("functions defined");
 
-pauser();
+animation.addEventListener("ready", () => {
+  animation.pause();
+});
 
 // hoverTrigger.addEventListener("mouseover", function (event) {
 //   lottiePlayer.pause();

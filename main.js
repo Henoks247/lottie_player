@@ -16,8 +16,8 @@ function player() {
   console.log("played");
 }
 
-animation.addEventListener("ready", () => {
-  animation.pause();
+lottiePlayer.addEventListener("ready", () => {
+  lottiePlayer.pause();
 });
 
 // hoverTrigger.addEventListener("mouseover", function (event) {

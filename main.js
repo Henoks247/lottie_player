@@ -7,7 +7,7 @@ var lottiePlayer = document.getElementById("lottie_player");
 var hoverTrigger = document.getElementById("lottie_controller");
 
 function pauser() {
-  lottiePlayer.pause();
+  document.getElementById("lottie_player").pause();
   console.log("paused");
 }
 

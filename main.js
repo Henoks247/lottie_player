@@ -2,26 +2,20 @@ console.log("code link functionality check");
 console.log("code link functionality check 2");
 let animation = document.getElementById("exploding-bird");
 console.log(animation);
-function pauser() {
-  animation.pause();
-  console.log("paused");
+
+getElementById("lottiecontroller").addEventListener("mouseover", trialfunction);
+
+function trialfunction() {
+  document.getElementById("lottiecontroller").style.backgroundColor = "red";
 }
-// getElementById("lottie-controller").addEventListener(
-//   "mouseover",
-//   trialfunction
-// );
 
-// function trialfunction() {
-//   document.getElementById("lottie-controller").style.backgroundColor = "red";
-// }
+var lottiePlayer = document.getElementsByTagName("lottie-player");
+var hoverTrigger = document.getElementById("lottiecontroller");
 
-// var lottiePlayer = document.getElementsByTagName("lottie-player");
-// var hoverTrigger = document.getElementById("lottie-controller");
+lottiecontroller.addEventListener("mouseover", function (event) {
+  lottiePlayer[0].pause();
+});
 
-// lottie-controller.addEventListener('mouseover', function(event) {
-//   lottiePlayer[0].pause()
-// });
-
-// lottie-controller.addEventListener('mouseout', function(event) {
-//   lottiePlayer[0].play()
-// });
+lottiecontroller.addEventListener("mouseout", function (event) {
+  lottiePlayer[0].play();
+});

@@ -1,15 +1,15 @@
 console.log("code link functionality check");
 
-let animation = document.getElementById("exploding-bird");
-console.log(animation);
+// let animation = document.getElementById("lottie_player");
+// console.log(animation);
 
-var lottiePlayer = document.getElementById("exploding-bird");
-var hoverTrigger = document.getElementById("lottiecontroller");
+var lottiePlayer = document.getElementById("lottie_player");
+var hoverTrigger = document.getElementById("lottie_controller");
 
-lottiecontroller.addEventListener("mouseover", function (event) {
+hoverTrigger.addEventListener("mouseover", function (event) {
   lottiePlayer.pause();
 });
 
-lottiecontroller.addEventListener("mouseout", function (event) {
+hoverTrigger.addEventListener("mouseout", function (event) {
   lottiePlayer.play();
 });

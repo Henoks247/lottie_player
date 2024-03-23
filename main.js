@@ -16,11 +16,10 @@ function player() {
   console.log("played");
 }
 
-lottiePlayer.addEventListener("ready", () => {
+hoverTrigger.addEventListener("mouseover", () => {
   lottiePlayer.pause();
-  console.log("pauser");
 });
-
+console.log("paused");
 // hoverTrigger.addEventListener("mouseover", function (event) {
 //   lottiePlayer.pause();
 // });

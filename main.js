@@ -1,5 +1,5 @@
 console.log("code link functionality check");
-console.log($(".h2").text());
+$("lottie-player").pause();
 
 console.log("code link functionality check 2");
 // getElementById("lottie-controller").addEventListener(

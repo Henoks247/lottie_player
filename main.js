@@ -16,10 +16,13 @@ function player() {
   console.log("played");
 }
 console.log("functions defined");
-hoverTrigger.addEventListener("mouseover", function (event) {
-  lottiePlayer.pause();
-});
 
-hoverTrigger.addEventListener("mouseout", function (event) {
-  lottiePlayer.play();
-});
+pauser();
+
+// hoverTrigger.addEventListener("mouseover", function (event) {
+//   lottiePlayer.pause();
+// });
+
+// hoverTrigger.addEventListener("mouseout", function (event) {
+//   lottiePlayer.play();
+// });

@@ -7,9 +7,9 @@ var lottiePlayer = document.getElementsByTagName("lottie-player");
 var hoverTrigger = document.getElementById("lottiecontroller");
 
 lottiecontroller.addEventListener("mouseover", function (event) {
-  lottiePlayer[0].pause();
+  lottiePlayer.pause();
 });
 
 lottiecontroller.addEventListener("mouseout", function (event) {
-  lottiePlayer[0].play();
+  lottiePlayer.play();
 });
